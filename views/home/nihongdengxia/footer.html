@@ -1,0 +1,105 @@
+			
+	<div id="footer-widgets-bg">
+		
+        <div id="footer-widgets-wrap" class="container">
+        
+            <div id="footer-widgets" class="clearfix">
+            
+                <div class="footer-widgets-left">
+                
+                    <div class="footer-widget-column">
+                        <aside id="custom_html-4" class="widget_text widget widget_custom_html">
+                            <h3 class="widgettitle"><span>标题</span></h3>
+                            <div class="textwidget custom-html-widget">
+                                内容
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="footer-widget-column">
+                        <aside id="custom_html-3" class="widget_text widget widget_custom_html">
+                            <h3 class="widgettitle"><span>标题</span></h3>
+                            <div class="textwidget custom-html-widget">
+                            内容
+                            </div>
+                        </aside>						
+                    </div>
+                    
+                </div>
+                
+                <div class="footer-widgets-left">				
+                    
+                    <div class="footer-widget-column">
+                        <aside id="nav_menu-4" class="widget widget_nav_menu">
+                            <h3 class="widgettitle"><span>标题</span></h3>
+                            <div class="textwidget custom-html-widget">
+                                内容
+                            </div>
+                        </aside>						
+                    </div>
+                    <div class="footer-widget-column">
+                        <aside id="custom_html-5" class="widget_text widget widget_custom_html">
+                            <h3 class="widgettitle"><span>友情链接</span></h3>
+
+                            <div class="textwidget custom-html-widget">
+                                <ul>
+                                {{range $k ,$v := $.Link}}
+                                    <li id="menu-item-20104" class="menu-item menu-item-type-custom menu-item-object-custom">
+                                        <a href="{{$v.Url}}" target="_blank">{{$v.Title}}</a>
+                                    </li>
+                                {{end}}
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    
+</div>
+    
+
+<div id="footer-wrap">
+
+    <footer id="footer" class="container clearfix" role="contentinfo">
+        <!--
+        <nav id="footernav" class="clearfix" role="navigation">
+            <ul id="footernav-menu" class="menu">
+                <li id="menu-item-11063" class="menu-item menu-item-type-post_type menu-item-object-page">
+                    <a href="https://www.mtyyw.com/links/">友情链接</a>
+                </li>
+            </ul>
+            <h4 id="footernav-icon"></h4>
+        </nav>
+        -->
+        
+        <div id="footer-text">
+            Copyright &copy; {{date .T "Y"}} {{$.title}}  本站由 <a href="http://go-blog.cn" target="_blank" style="color:#d0cfcf">Go Blog</a> 构建  <a href="/sitemap.xml" target="_blank" style="color:#d0cfcf">站点地图</a>
+        </div>
+        
+    </footer>
+    
+</div>
+
+</div><!-- end #wrapper -->
+
+<script>
+(function(){
+var bp = document.createElement('script');
+var curProtocol = window.location.protocol.split(':')[0];
+if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+}
+else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+}
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(bp, s);
+})();
+</script>       
+<!-- 8 queries in 0.445 seconds.  -->
+</body>
+</html>	
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1604042367 -->

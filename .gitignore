@@ -1,0 +1,4 @@
+.idea/*
+./installed
+./conf/app.conf
+./vendor

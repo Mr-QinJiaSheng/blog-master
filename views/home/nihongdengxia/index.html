@@ -1,0 +1,120 @@
+<title>麦田音乐网-用音乐和文字温暖生活</title>
+<meta name="keywords" content="小众音乐,小清新,民谣,最好听的歌" />
+<meta name="description" content="用音乐和文字温暖生活，微信公众号“麦音乐”。小众音乐、有声电台、独立音乐、民谣、摇滚、爵士、欧美音乐、轻音乐。推荐最好的音乐，不管它是什么类型。" />
+
+{{template "home/nihongdengxia/header.html" .}}
+<div id="wrap" class="container clearfix">
+	
+		<section id="content" class="primary" role="main">
+		
+				 
+				
+	{{range $key ,$vlaue := $.Data}}
+	<article class="content-excerpt post type-post status-publish format-standard hentry category-feizhuliuyinyue">
+		
+		<h2 class="post-title entry-title"><a href="/detail/{{$vlaue.Id}}.html" rel="bookmark">{{$vlaue.Title}}</a></h2>
+		
+		<div class="postmeta">{{dateformat $vlaue.Created "2006-01-02 15:04:05"}} </div>
+
+				
+		<div class="entry clearfix">
+		
+			{{$vlaue.Remark}}
+			<!--
+			<blockquote>
+				<p>离开伊斯坦布尔仅仅四年之后，我发现我已渐渐淡忘了留在伊斯坦布尔的小恋人的面容。惊恐中，我努力地试图记起她。但终究发现，无论你多么爱她，人是会渐渐忘却那久未见面的面孔的。——奥尔罕·帕慕克《我的名字叫红》</p>
+			</blockquote>
+			<p>
+				<a href="https://www.mtyyw.com/wp-content/uploads/2020/10/109951163424547835.jpg">
+					<img src="static/picture/109951163424547835.jpg" alt="" width="400" height="400" class="alignnone size-full wp-image-24592" />
+				</a>
+				<br />
+				曲名：Set for Life（此生无憾）<br />
+				歌手：Trent Dabbs<br />
+				所属专辑：Set for Life<br />
+				发行年代：2017
+			</p>
+			-->
+			<br>
+			<a href="/detail/{{$vlaue.Id}}.html" class="more-link">查看全部</a>
+		</div>
+		
+		<div class="postinfo clearfix">
+			<span class="meta-category">
+				<ul class="post-categories">
+					<li><a href="javascript:;" rel="category tag">{{$vlaue.Tag}}</a></li>
+					<li><a href="javascript:;" rel="category tag">{{$vlaue.Category.Name}}</a>
+					</li>
+				</ul>
+			</span>
+		</div>
+
+	</article>			
+	{{end}}
+
+	<div class="post-pagination clearfix">
+		{{if gt .Paginator.CurrentPage 1}}
+            <a class="current" href="{{urlfor "home.MainController.Get"}}?page={{IndexDecrOne $.Paginator.CurrentPage}}{{if $.Date}}&date={{$.Date}}{{end}}{{if $.CategoryID}}&c={{$.CategoryID}}{{end}}">上一页</a>
+        {{end}}
+        {{if lt .Paginator.CurrentPage .Paginator.TotalPage}}
+            <a class="current" href="{{urlfor "home.MainController.Get"}}?page={{IndexAddOne $.Paginator.CurrentPage}}{{if $.Date}}&date={{$.Date}}{{end}}{{if $.CategoryID}}&c={{$.CategoryID}}{{end}}">下一页</a>
+        {{end}}
+        {{if gt .Paginator.TotalPage 0}}
+            <span>第 {{.Paginator.CurrentPage}} 页 </span>
+            <span>总 {{.Paginator.TotalPage}} 页</span>
+        {{end}}
+		
+	</div>
+		
+	</section>
+		
+	<section id="sidebar" class="secondary clearfix" role="complementary">
+		{{/*<!--
+		<aside id="nav_menu-6" class="widget widget_nav_menu clearfix">
+			<h3 class="widgettitle"><span>推荐</span></h3>
+			<div class="menu-%e9%9f%b3%e4%b9%90%e6%8e%a8%e8%8d%90-container">
+				<ul id="menu-%e9%9f%b3%e4%b9%90%e6%8e%a8%e8%8d%90" class="menu">
+					{{range $key ,$vlaue := $.Data}}
+						{{if eq $vlaue.Recommend 1}}
+						<li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/detail/{{$vlaue.Id}}.html">{{$vlaue.Title}}</a></li>
+						{{end}}
+					{{end}}
+				</ul>
+			</div>
+		</aside>
+		-->*/}}
+		<aside id="search-8" class="widget widget_search clearfix">
+			<h3 class="widgettitle"><span>搜索</span></h3>
+			<form role="search" method="get" class="search-form" action="/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s">
+				</label>
+				<button type="submit" class="search-submit">
+					<span class="genericon-search"></span>
+				</button>
+			</form>
+		</aside>
+		<aside id="text-8" class="widget widget_text clearfix">
+			<h3 class="widgettitle"><span>梵高的向日葵T恤</span></h3>
+			<div class="textwidget">
+				<a href="https://www.mtyyw.com/24106/" rel="nofollow noopener noreferrer" target="_blank">
+					<img src="/static/nihongdengxia/picture/xiangrikui-2020.jpg" alt="广告" width="400" height="400" class="alignnone size-full wp-image-11045" />
+				</a>
+			</div>
+		</aside>
+		<aside id="recent-posts-4" class="widget widget_recent_entries clearfix">
+			<h3 class="widgettitle"><span>热门文章</span></h3>
+			<ul>
+				{{range $k,$v := $.ArticlesReadSort}}
+                     <li>
+                        <a title="{{$v.Title}}" href="/detail/{{$v.Id}}.html">
+                            {{IndexForOne $k 1 1}}. {{$v.Title}}({{$v.Pv}})
+                        </a>
+                    </li>
+                {{end}}	
+			</ul>
+		</aside>
+	</section>
+</div>
+{{template "home/nihongdengxia/footer.html" .}}

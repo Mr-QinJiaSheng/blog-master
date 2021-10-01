@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/20.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/23.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/25.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/24567/#respond</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/21.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/5.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/17.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/13.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/4.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/7.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/16.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/3.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/admin</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/19.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/14.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/message.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/15.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/22.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/6.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/sitemap.xml</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/about.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/26.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/24.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/18.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/2.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+		<url>
+			<loc>http://127.0.0.1:8088/detail/27.html</loc>
+			<priority>0.9</priority>
+			<lastmod>2020-11-17 17:13:12</lastmod>
+			<changefreq>weekly</changefreq>
+		</url>
+
+</urlset>

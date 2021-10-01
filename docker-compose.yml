@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+  mysql:
+    image: 'mysql:5.7'
+    container_name: go-blog-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: '123456'
+      # MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+    ports:
+      - 13306:3306
+    volumes:
+      - './data/mysql/conf.d:/etc/mysql/conf.d'
+      - './data/mysql/data:/var/lib/mysql'
+  go-blog:
+    image: chenli0x01/go-blog:v1
+    container_name: go-blog
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql
+    restart: on-failure

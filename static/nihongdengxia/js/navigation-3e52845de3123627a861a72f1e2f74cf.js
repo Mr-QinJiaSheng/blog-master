@@ -1,0 +1,6 @@
+/*! jQuery navigation.js
+  Add toggle icon for mobile navigation and dropdown animations for widescreen navigation
+  Author: Thomas W (themezee.com)
+*/
+jQuery(document).ready(function($){$('#footernav-icon').on('click',function(){$('#footernav-menu').slideToggle();$(this).toggleClass('active')});$('#mainnav-icon').on('click',function(){$('#mainnav-menu').slideToggle();$(this).toggleClass('active')});if(typeof matchMedia=='function'){var mq=window.matchMedia('(max-width: 60em)');mq.addListener(dynamicnewsWidthChange);dynamicnewsWidthChange(mq)}
+function dynamicnewsWidthChange(mq){if(mq.matches){$('#mainnav-menu ul').css({display:'block'});$('#mainnav-menu li ul').css({visibility:'visible',display:'block'});$('#mainnav-menu li').unbind('mouseenter mouseleave')}else{$('#mainnav-menu ul').css({display:'none'});$('#mainnav-menu li').hover(function(){$(this).find('ul:first').css({visibility:'visible',display:'none'}).slideDown(300)},function(){$(this).find('ul:first').css({visibility:'hidden'})})}}})
